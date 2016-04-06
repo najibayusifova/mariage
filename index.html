@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mariage</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- My very own CSS and Script-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="script/s_script.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" >
+    <!-- Menu { -->
+
+    <!-- <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid" style="margin-top: 42px;">
+            <div class="navbar-header" style="margin-left:24px;">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-top: -18px;">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage" style=" font-size: -webkit-xxx-large;">MARIAGE.az</a>
+                <a class="navbar-brand" href="Page" style="margin-top: -32px; margin-left: 588px;">Yeni heyata ilk addimlarla</a>
+                <hr style="position: relative;left: 117px;">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="margin-right:55px;">
+                <ul class="nav navbar-nav navbar-right" style="margin-top: -12px">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toyların təşkili
+         <i class="fa fa-heart"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Şadlıq sarayları</a></li>
+                            <li><a href="#">Maşın</a></li>
+                            <li><a href="#">Müğənni sifarişi</a></li>
+                            <li><a href="#">Gül salonu</a></li>
+                            <li><a href="#">Fotoqraf</a></li>
+                            <li><a href="#">Rəqs qrupu</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toya hazırlıq
+          <i class="fa fa-heart"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Gəlinliklər və gəlin aksesuarları</a></li>
+                            <li><a href="#">Tort və xonçaların hazırlanması</a></li>
+                            <li><a href="#">Bəy paltarları</a></li>
+                            <li><a href="#">Ziyafət geyimləri</a></li>
+                            <li><a href="#">Zinət əşyaları</a></li>
+                            <li><a href="#">Vizaj və saç düzümləri</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Özəl xidmətlər
+          <i class="fa fa-heart"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Xinayaxdinin təşkili</a></li>
+                            <li><a href="#">Evlilik təklifinin təşkili</a></li>
+                            <li><a href="#">Love Site</a></li>
+                            <li><a href="#">Özəl toyların təşkili</a></li>
+                            <li><a href="#">Bal ayı</a></li>
+                            <li><a href="#">Atəş fəşanlığın təşkili</a></li>
+                            <li><a href="#">Xareoqraf</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#myqeydiyyat"><span class="glyphicon glyphicon-user" title="istifadəçi qeydiyyatı"></span> </a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#mydaxilol"><span class="glyphicon glyphicon-log-in" title="Şirkət qeydiyyatı"></span> </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+     <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid" style="margin-top: 67px">
+           
+            <div class="navbar-header" style="margin-left:24px;">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a class="signin" href="#0" style="margin-top: -69px;    margin-left: -31px;"><span class="glyphicon glyphicon-user" title="istifadəçi qeydiyyatı"></span></a></li>
+                        <li><a class="signup" href="#0" style="    margin-top: -69px;"><span class="glyphicon glyphicon-log-in" title="Şirkət qeydiyyatı"></span> </</a></li>
+                    </ul>
+                </nav>
+                <div class="user-modal">
+                    <div class="user-modal-container">
+                        <ul class="switcher">
+                            <li><a href="#0">Daxil ol</a></li>
+                            <li><a href="#0">Qeydiyyat</a></li>
+                        </ul>
+                        <div id="login">
+                            <form class="form">
+                                <p class="fieldset">
+                                    <label class="image-replace email" for="signin-email">E-mail</label>
+                                    <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                                    <span class="error-message">Belə e-mail mövcud deyil</span>
+                                </p>
+                                <p class="fieldset">
+                                    <label class="image-replace password" for="signin-password">Password</label>
+                                    <input class="full-width has-padding has-border" id="signin-password" type="password" placeholder="Password">
+                                    <a href="#0" class="hide-password">Göstər</a>
+                                    <span class="error-message">Səhv password! Yenidən daxil et.</span>
+                                </p>
+                                <p class="fieldset">
+                                    <input type="checkbox" id="remember-me" checked>
+                                    <label for="remember-me">Məni xatırla</label>
+                                </p>
+                                <p class="fieldset">
+                                    <input class="full-width" type="submit" value="Login">
+                                </p>
+                            </form>
+                            <p class="form-bottom-message"><a href="#0"> Parolunuzu unutmusunuz?</a></p>
+                            <!-- <a href="#0" class="close-form">Close</a> -->
+                        </div>
+                        <div id="signup">
+                            <form class="form">
+                                <p class="fieldset">
+                                    <label class="image-replace username" for="signup-username">İstifadəçi adı</label>
+                                    <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                                    <span class="error-message">Adınızı daxil edərkən hərf və rəqəmlərdən istifadə edə bilərsiz!</span>
+                                </p>
+                                <p class="fieldset">
+                                    <label class="image-replace email" for="signup-email">E-mail</label>
+                                    <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                                    <span class="error-message">Düzgün e-mail daxil edin!</span>
+                                </p>
+                                <p class="fieldset">
+                                    <label class="image-replace password" for="signup-password">Password</label>
+                                    <input class="full-width has-padding has-border" id="signup-password" type="password" placeholder="Password">
+                                    <a href="#0" class="hide-password">Göstər</a>
+                                    <span class="error-message">Parol ən azı 6 simvol uzunluğunda olmalıdır!</span>
+                                </p>
+                                <p class="fieldset">
+                                    <input type="checkbox" id="accept-terms">
+                                    <label for="accept-terms">Mən razıyam<a class="accept-terms" href="#0">Şərtlərlə</a></label>
+                                </p>
+                                <p class="fieldset">
+                                    <input class="full-width has-padding" type="submit" value="Hesab yarat">
+                                </p>
+                            </form>
+                            <!-- <a href="#0" class="cd-close-form">Close</a> -->
+                        </div>
+                        <div id="reset-password">
+                            <p class="form-message">Şifrəni unutmusunuz? E-poçt ünvanınızı daxil edin zəhmət olmasa.</br>Siz yeni parol yaratmaq üçün bir link alacaqsınız.</p>
+                            <form class="form">
+                                <p class="fieldset">
+                                    <label class="image-replace email" for="reset-email">E-mail</label>
+                                    <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                                    <span class="error-message">Bu e-poçt ilə bir hesab yoxdur!</span>
+                                </p>
+                                <p class="fieldset">
+                                    <input class="full-width has-padding" type="submit" value="Reset password">
+                                </p>
+                            </form>
+                            <p class="form-bottom-message"><a href="#0">Login-e qayıdın</a></p>
+                        </div>
+                        <a href="#0" class="close-form">Bağla</a>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="margin-top:-18px;">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+
+                <!-- Modal end -->
+
+                <a class="navbar-brand" href="#myPage">
+                    <img id="logo" src="http://www.theweddingsite.com/mariage/logo.jpg">
+                </a>
+                <a class="navbar-brand" href="Page" style="font-family: 'ajure';margin-top: -32px;margin-left: 613px;">Yeni həyata ilk addımlarla</a>
+                <hr style="position: relative;left: 117px;">
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" style="margin-right:55px;">
+                <ul class="nav navbar-nav navbar-right" style="margin-top: -12px">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toyların təşkili
+                        <i class="fa fa-heart"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Şadlıq sarayları</a></li>
+                            <li><a href="#">Maşın</a></li>
+                            <li><a href="#">Müğənni sifarişi</a></li>
+                            <li><a href="#">Gül salonu</a></li>
+                            <li><a href="#">Fotoqraf</a></li>
+                            <li><a href="#">Rəqs qrupu</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Toya hazırlıq
+                   <i class="fa fa-heart"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Gəlinliklər və gəlin aksesuarları</a></li>
+                            <li><a href="#">Tort və xonçaların hazırlanması</a></li>
+                            <li><a href="#">Bəy paltarları</a></li>
+                            <li><a href="#">Ziyafət geyimləri</a></li>
+                            <li><a href="#">Zinət əşyaları</a></li>
+                            <li><a href="#">Vizaj və saç düzümləri</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Özəl xidmətlər
+                                 <i class="fa fa-heart"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Xinayaxdinin təşkili</a></li>
+                            <li><a href="#">Evlilik təklifinin təşkili</a></li>
+                            <li><a href="#">Love Site</a></li>
+                            <li><a href="#">Özəl toyların təşkili</a></li>
+                            <li><a href="#">Bal ayı</a></li>
+                            <li><a href="#">Atəş fəşanlığın təşkili</a></li>
+                            <li><a href="#">Xareoqraf</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu } -->
+    <!-- Video part { -->
+  
+	    <div class="videoWrapper">
+	        <iframe width="560" height="315" src="https://www.youtube.com/embed/bLgREOVd8iY" frameborder="0" autoplay="true" allowfullscreen></iframe>
+		</div>
+
+    <!--Video part } -->
+    <!-- Content { -->
+    <div class="container no-gutter">
+        <div id="lowopacity"></div>
+        <div class="row-s row">
+            <div class="col-md-12">
+                <p id="mission">Mariage.az Azərbaycanda yeni bir işə imza ataraq sizlərin ailə həyatında atacağınız ilk addımlarda sizə daha yaxından kömək etmək və həmçinin ailə quran cütlüklərimizin toy hazırlıqlarını asanlaşdırmaq məqsədilə qurulmuş bir saytdır. Məqsədimiz sizə ən sərfəli və rahat, həmçinin toylarınızın unudulmaz şəkildə təşkilinə yardımçı olmaqdır. Gənc cütlüklərimiz bizim təklif etdiyimiz tarif paketlərindən yararlanaraq həm zamana, həm də büdcəyə qənaət etmiş olacaqlar. Yeni həyata ilk addimlarinizi bizimlə atın. </p>
+            </div>
+            <div class="mainIn">
+                <section>
+                    <div class="holder">
+                        <a href="#" class="rhombus bg" id="first"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg" id="third"><i class="fa fa-modx">Lorem ipsum dolor</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg" id="second"><i >Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum dolor</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                        <a href="#" class="rhombus bg"><i class="fa fa-modx">Lorem ipsum</i></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- Content } -->
+</body>
+
+</html>
+<script type="text/javascript">
+
+(function($) {
+    'use strict';
+
+    $.fn.rhombus = function(options) {
+        var $list = $(this);
+        var $first = $list.first();
+        var op = $.extend({
+            classBreak: 'break',
+            classNoFloat: 'no-float'
+        }, options);
+
+        var onResize = function() {
+            var offsetTop = 0;
+            var rows = 0;
+            var parentWidth = 0;
+            var width = 0;
+
+            $list
+                .removeClass(op.classNoFloat)
+                .removeClass(op.classBreak)
+                .each(function() {
+                    if (this.offsetTop <= offsetTop) {
+                        return;
+                    }
+
+                    offsetTop = this.offsetTop;
+                    rows++;
+
+                    if (rows % 2 === 0) {
+                        $(this).addClass(op.classBreak);
+                    }
+
+                    if (rows < $list.length) {
+                        return;
+                    }
+
+                    parentWidth = $first.parent().outerWidth();
+                    width = $first.outerWidth(true) * 3 / 2;
+
+                    if (parentWidth > width) {
+                        return;
+                    }
+
+                    $list.removeClass(op.classBreak).addClass(op.classNoFloat);
+                });
+        };
+
+        $(window).on({
+            load: onResize.bind($list),
+            resize: onResize.bind($list)
+        });
+
+        return $list;
+    };
+
+    $(document).ready(function() {
+        $('.rhombus').rhombus();
+    });
+
+})(jQuery);
+
+</script>
