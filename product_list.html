@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mariage.az</title>
+    <script src="https://code.jquery.com/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE=" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-I6JCnqxMbC2DuiHjsoCiLa15NVbKRf8/ooANRLsXD87zD2dVqzlz6Oqjvj470ztk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/s_style.css">
+    <!-- <script type="text/javascript" src="script/s_script.js"></script> -->
+</head>
+
+<body>
+    <div class="container no-gutter">
+        <!-- <div id="lowopacity"></div> -->
+        <!-- <div class="row"> -->
+        <div class="col-md-2 filter">
+            <ul>
+                <li>
+                    <a href="">Bütün seçimləri sıfırla</a>
+                </li>
+                <li>
+                    <div class="field-title">
+                        Qolun uzunluğu
+                        <span class="caret caret-right">     
+                        </span>
+                    </div>
+                    <div class="field-content">
+                        <ul>
+                            <li>
+                                <input type='checkbox'>Qısa qol</li>
+                            <li>
+                                <input type='checkbox'>3/4</li>
+                            <li>
+                                <input type='checkbox'>Uzun qol</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="field-title">
+                        Ölçü
+                        <span class="caret caret-right">     
+                        </span>
+                    </div>
+                    <div class="field-content">
+                        <ul>
+                            <li>
+                                <input type='checkbox'>XS</li>
+                            <li>
+                                <input type='checkbox'>S</li>
+                            <li>
+                                <input type='checkbox'>M</li>
+                            <li>
+                                <input type='checkbox'>L</li>
+                            <li>
+                                <input type='checkbox'>XL</li>
+                            <li>
+                                <input type='checkbox'>XXL</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="field-title">Qiymət aralığı</div>
+                    <div>
+                        <input type="range"></input>
+                    </div>
+                    <div class="flex"><span>50 AZN</span><span>2000 AZN</span> </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-10 products">
+            <div class="header">
+                <div class="col-md-12 product-header">
+                    <div class="">
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti laboriosam consequatur veniam architecto, quis, officiis facilis sunt eveniet natus ex enim qui sint odit, maiores numquam eligendi ipsa rem quibusdam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae deserunt iste possimus, cumque labore earum facere quae explicabo libero provident, eaque voluptatibus sunt sint itaque molestias. Impedit, voluptatem, eaque. Alias.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-4 col-sm-6" data-toggle="modal" data-target="#details">
+                <div class="card">
+                    
+                        <div class="imgbox">
+                   
+                            <img  src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                        </div>
+                        <div class="textbox">
+                            <span>Lorem ipsum dolor</span>
+                            <span class="price">300$</span>
+                        </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div id="details" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content ">
+                        <div class="modal-footer ">
+                            <div class="col-md-6 image">
+                            <figure data-image-list="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg,http://www.weddingclub.com.au/wp-content/uploads/2013/05/Cosette-pallas-couture.jpg, http://www.abrideschoice.com/uploaded/thumbnails/db_file_img_22136_1000x1600.jpg">
+                              <div class="hid">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                                <img class="mainimg" src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                           
+                            </div>
+                            <div class="col-md-5 col-md-offset-1 desc">
+                                <h2>Lorem brand</h2>
+                                <p>Ziyafət donu</p>
+                                <p><strong>120861-20493 Oxford Geyim </strong></p>
+                                <h3>300$</h3>
+                                <div class="form-group">
+                                <select class="form-control tooltip_sizes" level="2" name="size" data-msg-required="Beden seçimi yapınız" data-rule-required="true">
+                                    <option value="-1" level="2" selected="selected" disabled="disabled">
+                                        Ölçü seçin
+                                    </option>
+                                    <option class="xs outofstock" stocksize="XS" level="2" value="31895" available="0">
+                                        XS (Tükəndi)
+                                    </option>
+                                    <option class="s" stocksize="S" level="2" value="31884" available="1">
+                                        S
+                                    </option>
+                                    <option class="m" stocksize="M" level="2" value="31894" available="1">
+                                        M (Son 2)
+                                    </option>
+                                    <option class="l outofstock" stocksize="L" level="2" value="31893" available="0">
+                                        L (Tükəndi)
+                                    </option>
+                                    <option class="xl outofstock" stocksize="XL" level="2" value="31945" available="0">
+                                        XL (Tükəndi)
+                                    </option>
+                                </select>
+                                </div>
+                                <button type="button" class="btn btn-samra" data-dismiss="modal"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Səbətə əlavə et</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal end -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <figure data-image-list="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg,http://www.weddingclub.com.au/wp-content/uploads/2013/05/Cosette-pallas-couture.jpg, http://www.abrideschoice.com/uploaded/thumbnails/db_file_img_22136_1000x1600.jpg">
+                        <div class="imgbox">
+                         
+                            <img id='img' src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                        </div>
+                        <div class="textbox">
+                            <span>Lorem ipsum dolor</span>
+                            <span class="price">300$</span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <figure data-image-list="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg,http://www.weddingclub.com.au/wp-content/uploads/2013/05/Cosette-pallas-couture.jpg, http://www.abrideschoice.com/uploaded/thumbnails/db_file_img_22136_1000x1600.jpg">
+                        <div class="imgbox">
+                            <img id='img' src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                        </div>
+                        <div class="textbox">
+                            <span>Lorem ipsum dolor</span>
+                            <span class="price">300$</span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <figure data-image-list="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg,http://www.weddingclub.com.au/wp-content/uploads/2013/05/Cosette-pallas-couture.jpg, http://www.abrideschoice.com/uploaded/thumbnails/db_file_img_22136_1000x1600.jpg">
+                        <div class="imgbox">
+                          
+                            <img id='img' src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                        </div>
+                        <div class="textbox">
+                            <span>Lorem ipsum dolor</span>
+                            <span class="price">300$</span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <figure data-image-list="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg,http://www.weddingclub.com.au/wp-content/uploads/2013/05/Cosette-pallas-couture.jpg, http://www.abrideschoice.com/uploaded/thumbnails/db_file_img_22136_1000x1600.jpg">
+                        <div class="imgbox">
+                         
+                            <img id='img' src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                        </div>
+                        <div class="textbox">
+                            <span>Lorem ipsum dolor</span>
+                            <span class="price">300$</span>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card">
+                    <figure data-image-list="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg,http://www.weddingclub.com.au/wp-content/uploads/2013/05/Cosette-pallas-couture.jpg, http://www.abrideschoice.com/uploaded/thumbnails/db_file_img_22136_1000x1600.jpg">
+                        <div class="imgbox">
+                            
+                            <img id='img' src="https://wwcdn.weddingwire.com/vendor/1_5000/610/thumbnails/800x800_1440950851323-brdnew.jpg">
+                        </div>
+                        <div class="textbox">
+                            <span>Lorem ipsum dolor</span>
+                            <span class="price">300$</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+$(document).ready(function() {
+    images = $("figure").data("imageList");
+    var array = images.split(',');
+
+    $(".mainimg").on("mouseenter", function() {
+        $(".mainimg").on("mousemove", function(event) {
+            var xCord = $(this).offset().left;
+            var width = $('img').innerWidth();
+            var relX = event.pageX - $(this).offset().left;
+            var relBoxCoords = relX;
+
+            if (relX > 0) {
+                $(this).prev().children().children().css("background-color", 'white');
+                $(this).prev().children().children().eq(0).css("background-color", "#7200D3");
+                $(this).attr("src", array[0]);;
+
+            }
+            if (relX > width / 3) {
+                $(this).prev().children().children().css("background-color", 'white');
+                $(this).prev().children().children().eq(1).css("background-color", "#7200D3");
+                $(this).attr("src", array[1]);
+
+                if (relX > width / 3 * 2) {
+                    $(this).prev().children().children().css("background-color", 'white');
+                    $(this).prev().children().children().eq(2).css("background-color", "#7200D3");
+                    $(this).attr("src", array[2]);
+                }
+            }
+        });
+    });
+    $(".mainimg").on("mouseout", function() {
+        $(this).attr("src", array[0]);;
+          $(this).prev().children().children().css("background-color", 'white');
+                $(this).prev().children().children().eq(0).css("background-color", "#7200D3");
+    });
+
+
+    $(".image").on("click", function(){
+        //$(this).toggle('slow')
+        $(this).toggleClass('zoom').animate('slow');
+    });
+
+
+
+});
+</script>

@@ -1,0 +1,177 @@
+body {
+  background-color: #FFE9EC;
+  background-size: cover; }
+
+.no-gutter [class*="col"],
+no-gutter .row {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#lowopacity {
+  background-color: #FFF;
+  opacity: 0.8;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 12px; }
+
+.container {
+  margin-top: 20px; }
+
+.opacity {
+  opacity: 0.5; }
+
+.row-s {
+  position: relative;
+  top: 0;
+  margin-top: 40px;
+  margin-bottom: 100px; }
+  .row-s .col {
+    display: flex;
+    justify-content: space-around; }
+  .row-s .col:nth-child(5) {
+    justify-content: flex-end; }
+  .row-s .col:nth-child(7) {
+    justify-content: flex-start; }
+
+.square {
+  width: 174px;
+  height: 174px;
+  overflow: hidden;
+  transform: rotate(45deg);
+  border: 1px solid white; }
+  .square .rotateback {
+    width: 150%;
+    height: 150%;
+    position: relative;
+    top: -46px;
+    left: -46px;
+    transform: rotate(-45deg); }
+    .square .rotateback p {
+      position: relative;
+      top: -182px;
+      text-align: center;
+      font-size: 25px;
+      font-weight: bold; }
+  .square img {
+    width: 100%; }
+
+.aye {
+  margin-top: 20px; }
+
+.filter {
+  background-color: #f7f7f7;
+  height: 800px;
+  border: 1px solid #d3d3d3;
+  padding: 30px;
+  text-align: center; }
+  .filter ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 5px; }
+    .filter ul li:first-child a {
+      color: black; }
+    .filter ul li {
+      margin-bottom: 10px; }
+  .filter .field-title {
+    font-weight: bold; }
+  .filter .field-content {
+    padding: 5px;
+    text-align: start;
+    border: 1px solid #d3d3d3; }
+    .filter .field-content input {
+      margin-right: 5px; }
+    .filter .field-content li {
+      font-size: 13px; }
+  .filter .flex {
+    display: flex;
+    justify-content: space-between; }
+    .filter .flex span {
+      font-size: 14px;
+      font-weight: bold; }
+
+.products .zoom {
+  border-width: 300px;
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: .3s linear;
+  box-shadow: 0 0 10px #000;
+  z-index: 10000; }
+.products .header {
+  padding: 0px 5px; }
+.products .product-header {
+  padding: 20px;
+  background-color: #FFF;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 10px; }
+.products .hid {
+  position: absolute;
+  top: 350px; }
+  .products .hid ul {
+    list-style: none; }
+    .products .hid ul li {
+      float: left;
+      height: 10px;
+      width: 10px;
+      border-radius: 10px;
+      background-color: #fff;
+      margin-right: 5px; }
+.products .card {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #d3d3d3; }
+  .products .card .imgbox {
+    height: 380px;
+    overflow: hidden;
+    position: relative; }
+    .products .card .imgbox img {
+      width: 100%; }
+    .products .card .imgbox input {
+      display: hidden; }
+  .products .card .textbox {
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .products .card span:nth-child(2) {
+    font-size: 20px;
+    color: #7200D3; }
+.products .details {
+  vertical-align: middle; }
+.products .modal {
+  text-align: center;
+  padding: 0 !important; }
+.products .modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; }
+.products .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle; }
+.products .modal-footer .btn-samra,
+.products .modal-footer select {
+  border-radius: 0; }
+.products .modal-footer .btn-samra {
+  background-color: #7a4792 !important;
+  width: 100%;
+  color: #FFF;
+  height: 40px; }
+  .products .modal-footer .btn-samra i {
+    margin-right: 10px; }
+.products .modal-footer .image img {
+  width: 100%;
+  border: 1px solid #d3d3d3; }
+.products .modal-footer .desc h3,
+.products .modal-footer .desc h2 {
+  margin-bottom: 10px;
+  padding: 0;
+  font-weight: bold;
+  color: #7a4792; }
+.products .modal-footer .desc p {
+  margin: 0; }
