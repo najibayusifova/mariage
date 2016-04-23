@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mariage</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- My very own CSS and Script-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- <script type="text/javascript" src="script/s_script.js"></script> -->
+
+</head>
+
+<body data-spy="scroll"  data-offset="50"  >
+    <!-- Video part { -->
+    <div class="imgwrapper">
+        
+        <img id="main" src="http://vickylamburn.com/wp-content/uploads/2015/07/fine-art-wedding-photographer-uk.jpg" alt="Filankesov Photography">
+        <div id="lent">
+            <div class="left">
+                <
+            </div>
+            <div class="photos">
+                <img src="http://myweddingdecorations.net/wp-content/uploads/2015/06/how-to-make-a-wedding-checklist.jpg">
+                <img src="http://myweddingdecorations.net/wp-content/uploads/2015/06/how-to-make-a-wedding-checklist.jpg">
+                <img src="http://myweddingdecorations.net/wp-content/uploads/2015/06/how-to-make-a-wedding-checklist.jpg">
+                <img src="http://myweddingdecorations.net/wp-content/uploads/2015/06/how-to-make-a-wedding-checklist.jpg">
+                <img src="http://myweddingdecorations.net/wp-content/uploads/2015/06/how-to-make-a-wedding-checklist.jpg">
+                <img src="http://myweddingdecorations.net/wp-content/uploads/2015/06/how-to-make-a-wedding-checklist.jpg">
+            </div>
+            <div class="right">
+                <i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Video part } -->
+    <!-- Content { -->
+    <div class="container no-gutter">
+        <div class="row-s row">
+            <div class="photo">
+                <h2> Lorem Ipsum Photography</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Content } -->
+</body>
+
+</html>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $('.photos img').on('click',function(){
+            console.log('it is clicked');
+            $('#main').attr('src',$(this).attr('src'));
+        });
+    });
+</script>
